@@ -3,4 +3,4 @@ image:
 
 tasks:
   - init: npm install
-    command: node server.js
+    command: node index.js
