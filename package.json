@@ -1,0 +1,26 @@
+{
+  "name": "medafpup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamencode/medafpup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamencode/medafpup/issues"
+  },
+  "homepage": "https://github.com/mamencode/medafpup#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "puppeteer": "^17.0.0",
+    "puppeteer-cluster": "^0.23.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
