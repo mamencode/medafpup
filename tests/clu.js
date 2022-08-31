@@ -28,7 +28,7 @@ const fs = require('fs/promises');
 
 
 const urls = [
-    "https://www.gsmarena.com/lg-phones-f-20-10.php",
+    "https://www.gsmarena.com/apple-phones-48.php",
     
    
 
@@ -41,7 +41,7 @@ let listPhoneDetails = []
 async function testExample(content) {
     try {
         console.log(content)
-        await fs.writeFile('../bd/samsung/lg.json', content);
+        await fs.writeFile('../bd/samsung/apple.json', content);
 
     } catch (error) {
         console.log(error)
