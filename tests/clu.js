@@ -41,7 +41,7 @@ let listPhoneDetails = []
 async function testExample(content) {
     try {
         console.log(content)
-        await fs.writeFile('../bd/samsung/lgphone.json', content);
+        await fs.writeFile('../bd/samsung/lg.json', content);
 
     } catch (error) {
         console.log(error)
